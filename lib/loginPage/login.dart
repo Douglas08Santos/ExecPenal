@@ -1,7 +1,7 @@
 import 'package:exec_penal/homePage/home.dart';
 import 'package:flutter/material.dart';
 
-import 'CustomDropDownButton.dart';
+import 'customDropDownButton.dart';
 import 'register.dart';
 
 class LoginPage extends StatefulWidget {
@@ -91,9 +91,7 @@ class _LoginPageState extends State<LoginPage> {
                       Navigator.pushReplacement(
                           context,
                           MaterialPageRoute(
-                              builder: (context) =>
-                                  /**TODO: proxima pagina */
-                                  const HomePage()));
+                              builder: (context) => const HomePage()));
                     },
                     style: ElevatedButton.styleFrom(
                       padding: const EdgeInsets.fromLTRB(40, 15, 40, 15),
