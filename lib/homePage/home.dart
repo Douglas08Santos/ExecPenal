@@ -1,7 +1,8 @@
-import 'package:exec_penal/homePage/activityCard.dart';
-import 'package:exec_penal/homePage/calendarCard.dart';
-import 'package:exec_penal/homePage/customBottomNavBar.dart';
-import 'package:exec_penal/homePage/profileCard.dart';
+import 'package:exec_penal/details/CustomSizedBox.dart';
+import 'package:exec_penal/homePage/activityCard/activityCard.dart';
+import 'package:exec_penal/homePage/calendarCard/calendarCard.dart';
+import 'package:exec_penal/details/customBottomNavBar.dart';
+import 'package:exec_penal/homePage/profileCard/profileCard.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -12,41 +13,35 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  final String nome = 'Douglas';
+  /**TODO: Criar uma List de Paginas para altenar com o BottomNavBar */
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text("Execução Penal - Home"),
-          actions: [],
+          title: Text("JFPE - $nome"),
         ),
         body: Column(children: [
-          const SizedBox(
-            height: 20,
-          ),
+          CustomSizedBox(0, 20),
           Row(
+            /**profile card */
             mainAxisAlignment: MainAxisAlignment.end,
             children: [
-              /**profile card */
-              const ProfileCard(),
-              const SizedBox(
-                width: 10,
+              Container(
+                child: ProfileCard(),
+                color: Colors.blue,
               ),
+              CustomSizedBox(15, 0),
             ],
           ),
-          const SizedBox(
-            height: 20,
-          ),
+          CustomSizedBox(0, 20),
           /**Card de atividades */
           const ActivityCard(),
-          const SizedBox(
-            height: 20,
-          ),
+          CustomSizedBox(0, 20),
           /**Card para resumo do calendário */
           const CalendarCard(),
-          const SizedBox(
-            height: 20,
-          ),
+          CustomSizedBox(0, 20),
         ]),
-        bottomNavigationBar: CustomBottomNavBar());
+        bottomNavigationBar: const CustomBottomNavBar());
   }
 }

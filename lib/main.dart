@@ -1,4 +1,5 @@
 import 'package:exec_penal/homePage/home.dart';
+import 'package:exec_penal/userPage/userPage.dart';
 import 'package:flutter/material.dart';
 
 import 'loginPage/login.dart';
@@ -13,11 +14,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Execução Penal',
         theme: ThemeData(
-          primarySwatch: Colors.red,
+          primarySwatch: Colors.blue,
         ),
-        home: LoginPage());
+        home: UserPage());
   }
 }
 
