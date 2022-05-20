@@ -16,9 +16,16 @@ class _UserFieldsState extends State<UserFields> {
   late TextEditingController _controllerEmail;
   late TextEditingController _controllerTelefone;
 
-  bool _isReadonlyNome = false;
-  bool _isReadonlyEmail = false;
-  bool _isReadonlyTelefone = false;
+  bool _isReadonlyNome = true;
+  bool _isReadonlyEmail = true;
+  bool _isReadonlyTelefone = true;
+
+  Icon saveIcon = Icon(Icons.save);
+  Icon editIcon = Icon(Icons.edit);
+
+  Icon nomeIcon = Icon(Icons.edit);
+  Icon emailIcon = Icon(Icons.edit);
+  Icon telIcon = Icon(Icons.edit);
 
   @override
   void initState() {
@@ -33,49 +40,80 @@ class _UserFieldsState extends State<UserFields> {
     return Container(
       child: Column(
         children: [
-          TextField(
-            readOnly: _isReadonlyNome,
-            controller: _controllerNome,
-            decoration: InputDecoration(
-              labelText: 'Nome',
-              border: OutlineInputBorder(),
-            ),
-            onTap: () {
-              setState(() {
-                _isReadonlyNome = !_isReadonlyNome;
-              });
-            },
-          ),
-          CustomSizedBox(0, 10),
-          TextField(
-              readOnly: _isReadonlyEmail,
-              controller: _controllerEmail,
-              decoration: InputDecoration(
-                labelText: 'Email',
-                border: OutlineInputBorder(),
+          Row(
+            children: <Widget>[
+              Flexible(
+                child: TextField(
+                  readOnly: _isReadonlyNome,
+                  controller: _controllerNome,
+                  decoration: InputDecoration(
+                    labelText: 'Nome',
+                    border: OutlineInputBorder(),
+                  ),
+                ),
               ),
-              onTap: () {
-                setState(
-                  () {
-                    _isReadonlyEmail = !_isReadonlyEmail;
+              IconButton(
+                  onPressed: () {
+                    setState(() {
+                      _isReadonlyNome = !_isReadonlyNome;
+                      _isReadonlyNome
+                          ? nomeIcon = editIcon
+                          : nomeIcon = saveIcon;
+                    });
                   },
-                );
-              }),
-          CustomSizedBox(0, 10),
-          TextField(
-            readOnly: _isReadonlyTelefone,
-            controller: _controllerTelefone,
-            decoration: InputDecoration(
-              labelText: 'Telefone',
-              border: OutlineInputBorder(),
-            ),
-            onTap: () {
-              setState(() {
-                _isReadonlyTelefone = !_isReadonlyTelefone;
-              });
-            },
+                  icon: nomeIcon),
+            ],
           ),
           CustomSizedBox(0, 10),
+          Row(
+            children: <Widget>[
+              Flexible(
+                child: TextField(
+                  readOnly: _isReadonlyEmail,
+                  controller: _controllerEmail,
+                  decoration: InputDecoration(
+                    labelText: 'Email',
+                    border: OutlineInputBorder(),
+                  ),
+                ),
+              ),
+              IconButton(
+                  onPressed: () {
+                    setState(() {
+                      _isReadonlyEmail = !_isReadonlyEmail;
+                      _isReadonlyEmail
+                          ? editIcon = editIcon
+                          : editIcon = saveIcon;
+                    });
+                  },
+                  icon: editIcon),
+            ],
+          ),
+          CustomSizedBox(0, 10),
+          Row(
+            children: <Widget>[
+              Flexible(
+                child: TextField(
+                  readOnly: _isReadonlyTelefone,
+                  controller: _controllerTelefone,
+                  decoration: InputDecoration(
+                    labelText: 'Telefone',
+                    border: OutlineInputBorder(),
+                  ),
+                ),
+              ),
+              IconButton(
+                  onPressed: () {
+                    setState(() {
+                      _isReadonlyTelefone = !_isReadonlyTelefone;
+                      _isReadonlyTelefone
+                          ? telIcon = editIcon
+                          : telIcon = saveIcon;
+                    });
+                  },
+                  icon: telIcon),
+            ],
+          ),
         ],
       ),
     );
