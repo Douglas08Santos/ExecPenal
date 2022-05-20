@@ -1,10 +1,8 @@
 import 'package:exec_penal/details/CustomSizedBox.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
-class TaskCard extends StatelessWidget {
-  const TaskCard({Key? key}) : super(key: key);
+class InfoUserCard extends StatelessWidget {
+  const InfoUserCard({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -13,11 +11,11 @@ class TaskCard extends StatelessWidget {
         children: [
           Container(
             child: Text(
-              "Trabalho do dia",
+              "Penas",
               style:
                   TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
             ),
-            color: Colors.blue,
+            color: Colors.green,
             width: double.maxFinite,
             height: 20,
             alignment: AlignmentDirectional.topCenter,
@@ -25,25 +23,17 @@ class TaskCard extends StatelessWidget {
           CustomSizedBox(0, 10),
           Container(
             child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-              Text("Data:"),
+              Text("Delito 1"),
               CustomSizedBox(20, 0),
-              Text("17/05/22"),
+              Text("6 meses"),
             ]),
           ),
           CustomSizedBox(0, 10),
           Container(
             child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-              Text("Local:"),
+              Text("Delito 2"),
               CustomSizedBox(20, 0),
-              Text("E.E. ABC"),
-            ]),
-          ),
-          CustomSizedBox(0, 10),
-          Container(
-            child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-              Text("Turno:"),
-              CustomSizedBox(20, 0),
-              Text("Manhã"),
+              Text("9 meses"),
             ]),
           ),
           CustomSizedBox(0, 10),
