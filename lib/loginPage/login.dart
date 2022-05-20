@@ -125,8 +125,8 @@ class _LoginPageState extends State<LoginPage> {
                   const SizedBox(
                     height: 100,
                   ),
-                  Text('Rodrigo Mattos'),
-                  Text('TRF-5 / JFPE')
+                  //Text('Rodrigo Mattos'),
+                  //Text('TRF-5 / JFPE')
                 ],
               ),
             )

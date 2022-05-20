@@ -50,18 +50,18 @@ class _CameraPageState extends State<CameraPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         body: SafeArea(
-      child: Column(children: <Widget>[
-        _path == null
-            ? Image.asset("images/place-holder.png")
-            : Image.file(File(_path!)),
-        FlatButton(
-          child: Text("Take Picture", style: TextStyle(color: Colors.white)),
-          color: Colors.green,
-          onPressed: () {
-            _showOptions(context);
-          },
-        )
-      ]),
+      child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            FlatButton(
+              child:
+                  Text("Take Picture", style: TextStyle(color: Colors.white)),
+              color: Colors.green,
+              onPressed: () {
+                _showOptions(context);
+              },
+            )
+          ]),
     ));
   }
 }

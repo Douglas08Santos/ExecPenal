@@ -35,7 +35,7 @@ class SummaryCard extends StatelessWidget {
             child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
               Text("# Faltas:"),
               CustomSizedBox(20, 0),
-              Text("123"),
+              Text("11"),
             ]),
           ),
           CustomSizedBox(0, 10),
