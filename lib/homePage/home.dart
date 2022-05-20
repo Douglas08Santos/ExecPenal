@@ -3,6 +3,7 @@ import 'package:exec_penal/homePage/activityCard/activityCard.dart';
 import 'package:exec_penal/homePage/calendarCard/calendarCard.dart';
 import 'package:exec_penal/details/customBottomNavBar.dart';
 import 'package:exec_penal/homePage/profileCard/profileCard.dart';
+import 'package:exec_penal/loginPage/login.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -19,8 +20,17 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("JFPE - $nome"),
-        ),
+            title: Row(
+          children: [
+            BackButton(
+              onPressed: () {
+                Navigator.pushReplacement(context,
+                    MaterialPageRoute(builder: (context) => const LoginPage()));
+              },
+            ),
+            Text('JFPE - $nome')
+          ],
+        )),
         body: Column(children: [
           CustomSizedBox(0, 20),
           Row(
