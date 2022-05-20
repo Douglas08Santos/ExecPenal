@@ -1,0 +1,11 @@
+/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/build/linux/x64/debug/bundle/exec_penal
+/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES
+/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/build/linux/x64/debug/bundle/data/flutter_assets/version.json
+/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
+/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin

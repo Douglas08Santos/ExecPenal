@@ -2,6 +2,7 @@ import 'package:exec_penal/details/CustomSizedBox.dart';
 import 'package:exec_penal/homePage/activityCard/activityCard.dart';
 import 'package:exec_penal/homePage/calendarCard/calendarCard.dart';
 import 'package:exec_penal/details/customBottomNavBar.dart';
+import 'package:exec_penal/homePage/cameraPage/cameraPage.dart';
 import 'package:exec_penal/homePage/profileCard/profileCard.dart';
 import 'package:exec_penal/loginPage/login.dart';
 import 'package:flutter/material.dart';
@@ -51,7 +52,15 @@ class _HomePageState extends State<HomePage> {
           /**Card para resumo do calendário */
           const CalendarCard(),
           CustomSizedBox(0, 20),
-        ]),
-        bottomNavigationBar: const CustomBottomNavBar());
+          Container(
+            color: Colors.blue,
+            child: TextButton(
+                onPressed: () {
+                  Navigator.pushReplacement(context,
+                      MaterialPageRoute(builder: (context) => CameraPage()));
+                },
+                child: Text("Presença", style: TextStyle(color: Colors.white))),
+          )
+        ]));
   }
 }

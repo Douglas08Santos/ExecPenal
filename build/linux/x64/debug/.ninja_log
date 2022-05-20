@@ -1,0 +1,106 @@
+# ninja log v5
+0	66458	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/libflutter_linux_gtk.so	8d52b25e108ab589
+0	66458	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	8d52b25e108ab589
+0	66458	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	8d52b25e108ab589
+0	66458	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	8d52b25e108ab589
+0	66458	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	8d52b25e108ab589
+0	66458	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_engine.h	8d52b25e108ab589
+0	66458	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	8d52b25e108ab589
+0	66458	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	8d52b25e108ab589
+0	66458	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	8d52b25e108ab589
+0	66458	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	8d52b25e108ab589
+0	66458	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	8d52b25e108ab589
+0	66458	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	8d52b25e108ab589
+0	66458	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	8d52b25e108ab589
+0	66458	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	8d52b25e108ab589
+0	66458	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	8d52b25e108ab589
+0	66458	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	8d52b25e108ab589
+0	66458	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	8d52b25e108ab589
+0	66458	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	8d52b25e108ab589
+0	66458	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_value.h	8d52b25e108ab589
+0	66458	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_view.h	8d52b25e108ab589
+0	66458	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	8d52b25e108ab589
+0	66458	0	flutter/_phony_	8d52b25e108ab589
+66463	68628	1653067035	CMakeFiles/exec_penal.dir/flutter/generated_plugin_registrant.cc.o	52fcd4c23c70cd33
+66459	68813	1653067035	CMakeFiles/exec_penal.dir/main.cc.o	3b01ae456b26f5d2
+66462	68869	1653067035	CMakeFiles/exec_penal.dir/my_application.cc.o	d86f34d68359e463
+68870	69623	1653067036	intermediates_do_not_run/exec_penal	99ba7f1695ac2148
+69623	70297	0	CMakeFiles/install.util	3ef7962c3ce64d9e
+165	115226	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/libflutter_linux_gtk.so	846084e17e2235f9
+165	115226	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	846084e17e2235f9
+165	115226	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	846084e17e2235f9
+165	115226	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	846084e17e2235f9
+165	115226	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	846084e17e2235f9
+165	115226	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_engine.h	846084e17e2235f9
+165	115226	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	846084e17e2235f9
+165	115226	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	846084e17e2235f9
+165	115226	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	846084e17e2235f9
+165	115226	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	846084e17e2235f9
+165	115226	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	846084e17e2235f9
+165	115226	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	846084e17e2235f9
+165	115226	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	846084e17e2235f9
+165	115226	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	846084e17e2235f9
+165	115226	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	846084e17e2235f9
+165	115226	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	846084e17e2235f9
+165	115226	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	846084e17e2235f9
+165	115226	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	846084e17e2235f9
+165	115226	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_value.h	846084e17e2235f9
+165	115226	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_view.h	846084e17e2235f9
+165	115226	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	846084e17e2235f9
+165	115226	0	flutter/_phony_	846084e17e2235f9
+115227	119172	1653068751	CMakeFiles/exec_penal.dir/flutter/generated_plugin_registrant.cc.o	52fcd4c23c70cd33
+115227	119249	1653068751	CMakeFiles/exec_penal.dir/my_application.cc.o	d86f34d68359e463
+119249	119862	1653068751	intermediates_do_not_run/exec_penal	81106350eb4c6307
+119862	120254	0	CMakeFiles/install.util	444e2378a041819b
+16	45622	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/libflutter_linux_gtk.so	846084e17e2235f9
+16	45622	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	846084e17e2235f9
+16	45622	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	846084e17e2235f9
+16	45622	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	846084e17e2235f9
+16	45622	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	846084e17e2235f9
+16	45622	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_engine.h	846084e17e2235f9
+16	45622	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	846084e17e2235f9
+16	45622	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	846084e17e2235f9
+16	45622	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	846084e17e2235f9
+16	45622	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	846084e17e2235f9
+16	45622	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	846084e17e2235f9
+16	45622	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	846084e17e2235f9
+16	45622	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	846084e17e2235f9
+16	45622	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	846084e17e2235f9
+16	45622	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	846084e17e2235f9
+16	45622	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	846084e17e2235f9
+16	45622	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	846084e17e2235f9
+16	45622	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	846084e17e2235f9
+16	45622	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_value.h	846084e17e2235f9
+16	45622	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_view.h	846084e17e2235f9
+16	45622	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	846084e17e2235f9
+16	45622	0	flutter/_phony_	846084e17e2235f9
+45623	46715	1653072406	CMakeFiles/exec_penal.dir/flutter/generated_plugin_registrant.cc.o	52fcd4c23c70cd33
+45623	47003	1653072406	CMakeFiles/exec_penal.dir/my_application.cc.o	d86f34d68359e463
+47003	47597	1653072407	intermediates_do_not_run/exec_penal	81106350eb4c6307
+47597	47868	0	CMakeFiles/install.util	444e2378a041819b
+7	63435	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/libflutter_linux_gtk.so	846084e17e2235f9
+7	63435	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	846084e17e2235f9
+7	63435	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	846084e17e2235f9
+7	63435	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	846084e17e2235f9
+7	63435	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	846084e17e2235f9
+7	63435	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_engine.h	846084e17e2235f9
+7	63435	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	846084e17e2235f9
+7	63435	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	846084e17e2235f9
+7	63435	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	846084e17e2235f9
+7	63435	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	846084e17e2235f9
+7	63435	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	846084e17e2235f9
+7	63435	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	846084e17e2235f9
+7	63435	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	846084e17e2235f9
+7	63435	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	846084e17e2235f9
+7	63435	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	846084e17e2235f9
+7	63435	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	846084e17e2235f9
+7	63435	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	846084e17e2235f9
+7	63435	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	846084e17e2235f9
+7	63435	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_value.h	846084e17e2235f9
+7	63435	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/fl_view.h	846084e17e2235f9
+7	63435	0	/home/douglasantos/Documentos/Residencia TRF5/Mobile/ExecPenal/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	846084e17e2235f9
+7	63435	0	flutter/_phony_	846084e17e2235f9
+63441	64734	1653072556	CMakeFiles/exec_penal.dir/flutter/generated_plugin_registrant.cc.o	52fcd4c23c70cd33
+63437	64870	1653072557	CMakeFiles/exec_penal.dir/my_application.cc.o	d86f34d68359e463
+64870	65191	1653072557	intermediates_do_not_run/exec_penal	81106350eb4c6307
+65191	65676	0	CMakeFiles/install.util	444e2378a041819b

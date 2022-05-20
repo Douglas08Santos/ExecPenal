@@ -1,3 +1,5 @@
+import 'package:camera/camera.dart';
+import 'package:exec_penal/homePage/cameraPage/cameraPage.dart';
 import 'package:exec_penal/homePage/home.dart';
 import 'package:exec_penal/userPage/userPage.dart';
 import 'package:flutter/material.dart';
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: UserPage());
+        home: HomePage());
   }
 }
 
